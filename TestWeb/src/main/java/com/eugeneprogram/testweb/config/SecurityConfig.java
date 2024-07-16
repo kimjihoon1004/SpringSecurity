@@ -7,15 +7,10 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
-import org.springframework.web.cors.CorsConfiguration;
-import org.springframework.web.cors.CorsConfigurationSource;
-import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
 import com.eugeneprogram.testweb.security.CustomAuthenticationProvider;
 
 import static org.springframework.security.config.Customizer.withDefaults;
-
-import java.util.Arrays;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
